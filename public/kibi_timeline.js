@@ -183,10 +183,7 @@ define(function (require) {
                 var startRawValue = timelineHelper.pickFirstIfMultivalued(startRawFieldValue);
                 var labelValue = timelineHelper.pickFirstIfMultivalued(labelFieldValue, '');
                 var content =
-                  '<div title="index: ' + indexId +
-                  ', startField: ' + params.startField +
-                  (params.endField ? ', endField: ' + params.endField : '') +
-                  '">' + labelValue + '</div>';
+                  '<div title="hello I am changed">' + labelValue + '</div>';
 
                 var e =  {
                   index: indexId,
